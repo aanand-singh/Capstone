@@ -4,3 +4,9 @@
 *.tfvars
 *.tfplan
 crash.log
+.terraform/
+*.tfstate*
+example.txt
+.terraform/
+*.tfstate*
+example.txt

@@ -1,0 +1,14 @@
+terraform {
+  required_version = ">= 1.0"
+  required_providers {
+    local = {
+      source  = "hashicorp/local"
+      version = "~> 2.4"
+    }
+  }
+}
+
+resource "local_file" "example" {
+  content  = "CI validation for Terraform"
+  filename = "${path.module}/example.txt"
+}
