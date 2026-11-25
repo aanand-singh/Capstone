@@ -10,3 +10,7 @@ example.txt
 .terraform/
 *.tfstate*
 example.txt
+
+.terraform/
+tfplan
+tfplan.txt
