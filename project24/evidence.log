@@ -1,0 +1,18 @@
+Thu Nov 26 09:42:01 UTC 2026
+HTTP/1.0 200 OK
+Server: BaseHTTP/0.6 Python/3.12.3
+Date: Thu, 26 Nov 2026 09:42:01 GMT
+
+OK
+Thu Nov 26 09:42:10 UTC 2026
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to localhost port 8080 after 0 ms: Couldn't connect to server
+Thu Nov 26 09:43:34 UTC 2026
+HTTP/1.0 200 OK
+Server: BaseHTTP/0.6 Python/3.12.3
+Date: Thu, 26 Nov 2026 09:43:36 GMT
+
+OK
+Thu Nov 26 09:43:36 UTC 2026

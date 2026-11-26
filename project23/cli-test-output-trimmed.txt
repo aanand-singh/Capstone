@@ -1,0 +1,16 @@
+ip-172-31-13-38 login: =====P23-TEST-START=====
+--- whoami (sts get-caller-identity) ---
+{[m
+    "UserId": "AROAYS7HXD5CUXWSTM2V4:i-032f89d4ed01ddeb6",[m
+    "Account": "590507089733",[m
+    "Arn": "arn:aws:sts::590507089733:assumed-role/EC2-S3-Access-Role-Anand/i-03[m 2f89d4ed01ddeb6"[m
+}[m
+--- aws s3 ls (account has many buckets; list shortened) ---
+--- aws s3 ls s3://anand-p23-test-5647 ---
+2026-11-26 07:09:03         21 hello.txt
+--- download hello.txt ---
+Completed 21 Bytes/21 Bytes (644 Bytes/s) with 1 file(s) remainingdownload: s3://anand-p23-test-5647/hello.txt to tmp/hello.txt     
+hello from project23
+--- negative test: upload (expect AccessDenied) ---
+upload failed: tmp/test.txt to s3://anand-p23-test-5647/test.txt An error occurred (AccessDenied) when calling the PutObject operation: User: arn:aws:sts::590507089733:assumed-role/EC2-S3-Access-Role-Anand/i-032f89d4ed01ddeb6 is not authorized to perform: s3:PutObject on resource: "arn:aws:s3:::anand-p23-test-5647/test.txt" because no identity-based policy allows the s3:PutObject action
+=====P23-TEST-END=====
