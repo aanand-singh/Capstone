@@ -1,2 +1,9 @@
 Completed 38 Bytes/38 Bytes (603 Bytes/s) with 1 file(s) remainingupload: logs/app.log to s3://anand-p19-backup-590507089733-20261126/logs/app.log
 Completed 81 Bytes/81 Bytes (1.3 KiB/s) with 1 file(s) remainingupload: Capstone/project19/logs/app.log to s3://anand-p19-backup-590507089733-20261126/logs/app.log
+fatal error: Could not connect to the endpoint URL: "https://anand-p19-backup-590507089733-20261126.s3.ap-south-1.amazonaws.com/?list-type=2&prefix=logs%2F&encoding-type=url"
+fatal error: Could not connect to the endpoint URL: "https://anand-p19-backup-590507089733-20261126.s3.ap-south-1.amazonaws.com/?list-type=2&prefix=logs%2F&encoding-type=url"
+fatal error: Could not connect to the endpoint URL: "https://anand-p19-backup-590507089733-20261126.s3.ap-south-1.amazonaws.com/?list-type=2&prefix=logs%2F&encoding-type=url"
+fatal error: Could not connect to the endpoint URL: "https://anand-p19-backup-590507089733-20261126.s3.ap-south-1.amazonaws.com/?list-type=2&prefix=logs%2F&encoding-type=url"
+fatal error: Could not connect to the endpoint URL: "https://anand-p19-backup-590507089733-20261126.s3.ap-south-1.amazonaws.com/?list-type=2&prefix=logs%2F&encoding-type=url"
+fatal error: Could not connect to the endpoint URL: "https://anand-p19-backup-590507089733-20261126.s3.ap-south-1.amazonaws.com/?list-type=2&prefix=logs%2F&encoding-type=url"
+fatal error: Could not connect to the endpoint URL: "https://anand-p19-backup-590507089733-20261126.s3.ap-south-1.amazonaws.com/?list-type=2&prefix=logs%2F&encoding-type=url"
